@@ -73,7 +73,7 @@ Alto: 10
 Ancho: 10
 Alto: 10
 Área esperada: 50
-Área real: 100    ← ❌ ¡ERROR! No es lo esperado
+Área real: 100    ← ERROR: no es lo esperado
 ¿Es correcto? false
 ```
 
@@ -83,13 +83,13 @@ Ancho: 5
 Alto: 10
 Área esperada: 50
 Área real: 50
-✓ Es correcto: true
+Es correcto: true
 
 --- Usando Cuadrado (su propia interfaz) ---
 Lado: 5
 Área esperada: 25
 Área real: 25
-✓ Es correcto: true
+Es correcto: true
 ```
 
 ---
