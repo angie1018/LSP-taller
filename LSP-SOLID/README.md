@@ -23,11 +23,11 @@ En otras palabras: **Si B es un subtipo de A, entonces los objetos de tipo A pue
 Una violación ocurre cuando:
 
 ```java
-Animal animal = new Pajaro();
-animal.volar(); // ¿Qué pasa si obtenemos un Pinguino?
+Archivo archivo = new ArchivoTexto("datos.txt");
+archivo.guardar("contenido");
 ```
 
-El `Pinguino` hereda de `Animal` pero no puede volar. Esto viola LSP.
+Si sustituimos `ArchivoTexto` por `ArchivoSoloLectura`, el método `guardar()` no puede funcionar. La subclase no debe debilitar el comportamiento esperado de la clase base, por eso esto viola LSP.
 
 ---
 
