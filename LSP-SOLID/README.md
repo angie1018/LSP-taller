@@ -62,15 +62,14 @@ java Correcto
 
 ## Resumen de principios clave
 
-✅ **Las subclases deben mantener el contrato de la clase padre**
+**Las subclases deben mantener el contrato de la clase padre**
 
-✅ **No debe haber comportamientos sorpresivos en las subclases**
+**No debe haber comportamientos sorpresivos en las subclases**
 
-✅ **Si una subclase no puede hacer algo, no debe heredar de esa clase**
+**Si una subclase no puede hacer algo, no debe heredar de esa clase**
 
-❌ **No lanzar excepciones inesperadas en métodos heredados**
+**No lanzar excepciones inesperadas en métodos heredados**
 
-❌ **No debilitar validaciones o precondiciones**
+**No debilitar validaciones o precondiciones**
 
-❌ **No fortalecer postcondiciones más allá de lo esperado**
-
+**No fortalecer postcondiciones más allá de lo esperado**
