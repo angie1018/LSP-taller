@@ -117,7 +117,7 @@ Todas son "Descuentos", pero...
 ## Preguntas posibles y respuestas
 
 **P: ¿Cuándo violo LSP sin saberlo?**
-R: Cuando heredas para "reutilizar código" sin que la relación sea real. Un `Pinguino` no debería heredar de `Animal` si luego sobrescribes `volar()` para lanzar excepción.
+R: Cuando heredas para "reutilizar código" sin que la relación sea real. Un `ArchivoSoloLectura` no debería heredar de `Archivo` si luego sobrescribes `guardar()` para lanzar excepción.
 
 **P: ¿Siempre debo usar interfaces en lugar de herencia?**
 R: No, pero cuando los comportamientos son sustancialmente diferentes, una interfaz es mejor que herencia.
