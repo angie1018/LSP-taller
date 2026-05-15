@@ -1,8 +1,8 @@
 # Guía de Presentación - LSP (Liskov Substitution Principle)
 
-## 📌 Estructura de la Exposición (15-20 minutos)
+## Estructura de la exposición (15-20 minutos)
 
-### 1️⃣ Introducción (2 minutos)
+### Introducción (2 minutos)
 - **¿Qué es LSP?**
   - "Si B es subtipo de A, entonces objetos de A se pueden reemplazar por objetos de B"
   - Es sobre **confiabilidad** y **predecibilidad** en la herencia
@@ -14,7 +14,7 @@
 
 ---
 
-### 2️⃣ Ejemplo 1: Figuras Geométricas (4 minutos)
+### Ejemplo 1: Figuras Geométricas (4 minutos)
 
 **Diapositiva: El Problema**
 ```
@@ -37,7 +37,7 @@
 
 ---
 
-### 3️⃣ Ejemplo 2: Sistema de Descuentos (4 minutos)
+### Ejemplo 2: Sistema de Descuentos (4 minutos)
 
 **Diapositiva: El Problema**
 ```
@@ -61,7 +61,7 @@ Todas son "Descuentos", pero...
 
 ---
 
-### 4️⃣ Ejemplo 3: Gestor de Notificaciones (4 minutos)
+### Ejemplo 3: Gestor de Notificaciones (4 minutos)
 
 **Diapositiva: El Problema**
 ```
@@ -87,22 +87,22 @@ Todas son "Descuentos", pero...
 
 ---
 
-## 🎯 Conclusión (2 minutos)
+## Conclusión (2 minutos)
 
-### Principios Clave de LSP
+### Principios clave de LSP
 
-✅ **Las subclases deben respetar el contrato de la superclase**
+**Las subclases deben respetar el contrato de la superclase**
 - Mismo comportamiento esperado
 - Mismas excepciones
 - Mismas garantías
 
-✅ **No fortalecer precondiciones**
+**No fortalecer precondiciones**
 - La subclase no debe pedir más que la superclase
 
-✅ **No debilitar postcondiciones**
+**No debilitar postcondiciones**
 - La subclase no debe prometer menos que la superclase
 
-✅ **Usar interfaces cuando el comportamiento difiera**
+**Usar interfaces cuando el comportamiento difiera**
 - Mejor que herencia en esos casos
 
 ### Impacto en el Código Real
@@ -114,7 +114,7 @@ Todas son "Descuentos", pero...
 
 ---
 
-## 💡 Preguntas Posibles y Respuestas
+## Preguntas posibles y respuestas
 
 **P: ¿Cuándo violo LSP sin saberlo?**
 R: Cuando heredas para "reutilizar código" sin que la relación sea real. Un `Pinguino` no debería heredar de `Animal` si luego sobrescribes `volar()` para lanzar excepción.
@@ -127,7 +127,7 @@ R: Identifica dónde el cliente necesita preguntar "¿qué tipo realmente eres?"
 
 ---
 
-## 📊 Slides Sugeridas
+## Slides sugeridas
 
 1. Título: "LSP - Liskov Substitution Principle"
 2. ¿Qué es LSP?
@@ -142,7 +142,7 @@ R: Identifica dónde el cliente necesita preguntar "¿qué tipo realmente eres?"
 
 ---
 
-## 🔗 Cómo Presentar el Código
+## Cómo presentar el código
 
 **Opción A: Mostrar en pantalla durante la exposición**
 ```
@@ -164,7 +164,7 @@ R: Identifica dónde el cliente necesita preguntar "¿qué tipo realmente eres?"
 
 ---
 
-## ⏱️ Timing Sugerido
+## Timing sugerido
 
 - Introducción: 2 min
 - Ejemplo 1 (Figuras): 4 min (1 min concepto + 2 min demo + 1 min explicación)
@@ -176,7 +176,7 @@ R: Identifica dónde el cliente necesita preguntar "¿qué tipo realmente eres?"
 
 ---
 
-## 📋 Checklist de Presentación
+## Checklist de presentación
 
 - [ ] Compilé todos los ejemplos y funcionan
 - [ ] Preparé mis diapositivas
