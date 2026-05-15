@@ -23,11 +23,11 @@ En otras palabras: **Si B es un subtipo de A, entonces los objetos de tipo A pue
 Una violación ocurre cuando:
 
 ```java
-Archivo archivo = new ArchivoTexto("datos.txt");
-archivo.guardar("contenido");
+Servicio servicio = new ServicioBloqueado();
+servicio.conectar();  // Lanza excepción
 ```
 
-Si sustituimos `ArchivoTexto` por `ArchivoSoloLectura`, el método `guardar()` no puede funcionar. La subclase no debe debilitar el comportamiento esperado de la clase base, por eso esto viola LSP.
+Si la clase base `Servicio` permite conectar sin problemas, pero `ServicioBloqueado` lanza una excepción inesperada, entonces no puedes sustituir una por la otra. Esto viola LSP.
 
 ---
 
