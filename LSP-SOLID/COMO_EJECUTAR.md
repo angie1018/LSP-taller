@@ -202,5 +202,5 @@ cd ..
 2. Ejecuta los ejemplos "Incorrecto" para ver las violaciones
 3. Compara con los ejemplos "Correcto"
 4. Lee las explicaciones en Explicacion.md
-5. Prepara tu presentación
+
 
